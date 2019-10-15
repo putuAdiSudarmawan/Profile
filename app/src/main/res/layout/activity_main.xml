@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/backkground"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_settings_black_24dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="350dp"/>
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/myPict"
+        android:layout_width="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_height="150dp"
+        android:src="@drawable/jhon"/>
+    <TextView
+        android:id="@+id/tvMy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/myPict"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:text="Putu Adi Sudarmawan"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/nim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvMy"
+        android:text="1718062"
+        android:textSize="17dp"
+        android:gravity="center"
+        android:layout_marginTop="4dp" />
+
+    <LinearLayout
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/nim"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/tengah"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Biography"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:textSize="17dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Skills "
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:textSize="17dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Experience "
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="60dp"
+            android:textSize="17dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/php"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/judul"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/kt"
+            android:layout_marginLeft="20dp"/>
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="10dp"
+            android:src="@drawable/skills"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/phyton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/php"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/matlab"
+            android:layout_marginLeft="20dp"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="10dp"
+            android:src="@drawable/skills"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="30dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bs"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/phyton"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/unity"
+            android:layout_marginLeft="20dp"/>
+
+        <ImageView
+            android:layout_width="230dp"
+            android:layout_height="10dp"
+            android:src="@drawable/skills"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ci"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/bs"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/vs"
+            android:layout_marginLeft="20dp"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="10dp"
+            android:src="@drawable/skills"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="30dp"/>
+    </LinearLayout>
+</RelativeLayout>

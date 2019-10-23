@@ -58,7 +58,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Biography"
+            android:text="Follow"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="50dp"
             android:textSize="17dp"
@@ -67,7 +67,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=" Skills "
+            android:text=" Like "
             android:layout_marginTop="10dp"
             android:layout_marginLeft="50dp"
             android:textSize="17dp"
@@ -75,7 +75,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Experience "
+            android:text="Portofolio"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="60dp"
             android:textSize="17dp"

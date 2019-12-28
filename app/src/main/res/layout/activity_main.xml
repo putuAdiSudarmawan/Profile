@@ -12,7 +12,8 @@
         android:layout_height="match_parent"
         android:src="@drawable/backkground"/>
 
-    <ImageView
+    <ImageButton
+        android:id="@+id/setting"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:src="@drawable/ic_settings_black_24dp"
@@ -58,7 +59,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Follow"
+            android:text="@string/follow"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="50dp"
             android:textSize="17dp"
@@ -67,7 +68,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=" Like "
+            android:text="@string/like"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="50dp"
             android:textSize="17dp"
@@ -75,7 +76,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Portofolio"
+            android:text="@string/portofolio"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="60dp"
             android:textSize="17dp"
